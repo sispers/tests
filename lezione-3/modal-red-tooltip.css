@@ -1,0 +1,92 @@
+*, :after, :before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 2000px;  
+}
+
+.modal-base {
+    position: fixed;
+    top: 15px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    background-color: rgba(255, 0, 0, 0.795);
+    height: 550px;
+    width: 700px;
+    border-radius: 10px;
+  }
+
+.modal-overlay{
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    background-color: rgba(241, 110, 110, 0.795);
+    height: 350px;
+    width: 400px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.touch-here{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    background-color: rgb(255, 255, 255);
+    height: 150px;
+    width: 150px;
+    border-radius: 25px;
+}
+
+.row{
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    background-color: rgb(255, 255, 255);
+    height: 85px;
+    width: 95%;
+    border-radius: 50px;
+}
+
+.button-row {
+    position: absolute;
+    top: 20px;
+    background-color: rgb(255, 255, 255);
+    border-style: none;
+    height: 100%;
+    width: 33.3%;
+}
+
+.button-row:hover{
+    opacity: 0.2;
+    border-style: solid;
+    border-color: black;
+}
+
+/* ho posizionato i bottoni manualmente dandogli percentuali perchè altrimenti l'ultimo mi si posizionava sotto e non capisco perchè. */
+
+.button-mic{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+.button-stikers{
+    position: absolute;
+    top: 0px;
+    left: 33.5%;
+}
+
+.button-camera{
+    position: absolute;
+    top: 0px;
+    left: 66.8%;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;}

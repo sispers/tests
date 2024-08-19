@@ -1,0 +1,45 @@
+body{
+    background-color: gray;
+
+}
+
+h1{
+    background-color: aqua;
+    color: black;
+}
+
+p{
+    background-color: black;
+    color: white;
+}
+
+.button{
+    color: blue;
+    background-color: red;
+    height: 100px;
+    width: 170px;
+    border-radius: 16px;
+}
+
+.button-hover:hover{
+    background-color: blueviolet;
+    opacity: 0.6;
+}
+
+.shadow-hover:hover{
+    box-shadow: 0px 12px 10px rgb(23, 0, 128);
+}
+
+.main-button{
+    color:white;
+    background-color: rgb(23, 38, 38);
+    font-family: sans-serif;
+    font-size: 28px;
+    text-align: center;
+    border-color: black;
+    border-radius: 8px;
+    border-width: 4px;
+    padding: 12px 30px;
+    margin: 100px 120px;
+
+}
