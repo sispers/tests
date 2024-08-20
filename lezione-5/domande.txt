@@ -1,0 +1,7 @@
+
+1. penso di dover fare più pratica anche con i tag base, per capire
+meglio dove e quando usarli e come si interfacciano.
+
+2. non riesco a separare bene le classi; mi ritrovo ad averne o con
+poco contnenuto o moltissimo, l'aggiunta di @mixin mi ha un po 
+confuso in questo ambito.@
