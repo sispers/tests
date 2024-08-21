@@ -1,0 +1,1 @@
+ho sperimentato un po ma non sono riuscito a fare molto e a differenza delle altre volte non ho nemmeno capito il perchè non funzionasse o l'origine degli errori.
