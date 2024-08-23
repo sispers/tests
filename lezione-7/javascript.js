@@ -21,14 +21,13 @@ console.log (message);
 
 var gladiator_def = (a, b, c) => {
     var total_def = (a.base_def + b.armor + c.shield);
-    // total_def = (gladiator, gladiator, gladiator);
-    gladiator_def = (gladiator.base_def, gladiator.armor, gladiator.shield);
-
+    
     
     var message = `the defense of "${gladiator.gladiator_name}" is "${gladiator.total_def}"`;
     console.log (message);
 };
 
+gladiator_def = (gladiator.base_def, gladiator.armor, gladiator.shield);
 
 var sum = (a, b) => {
     console.log(a +b);
